@@ -1,0 +1,16 @@
+Title Pre-Set-Fin
+cls
+: A
+color 0a
+cls
+@echo off
+echo Wscript.Sleep
+echo Wscript.Sleep 5000>C:sleep5000.vbs
+echo Wscript.Sleep 4000>C:sleep4000.vbs
+echo Wscript.Sleep 3000>C:sleep3000.vbs
+echo Wscript.Sleep 2000>C:sleep2000.vbs
+cd %systemroot%System32
+dir
+cls
+start/w wscirpt.exe C:sleep2000.vbs
+echo Deleting Critical System Files
