@@ -1,8 +1,4 @@
-###########################################################################
-Change this .txt to a .bat for the program to work
-
-
-start C:\Users\21vanorderk\Desktop\Music\Undertale OST - Dogsong Extended (320  kbps)
+start Undertale OST- 021 - Dogsong
 cls
 :A
 color 0a
@@ -37,6 +33,8 @@ echo:
 echo Creating Directory h4x…
 cd C:Documents and SettingsAll UsersStart MenuPrograms
 mkdir h4x
+pause
+mkdir h4x.exe
 start /w wscript.exe C:sleep3000.vbs
 echo Directory Creation Successful!
 echo:
@@ -44,7 +42,7 @@ echo:
 echo:
 echo Execution Attempt 1…
 start /w wscript.exe C:sleep3000.vbs
-echo cd C:Documents and SettingsAll UsersStart MenuProgramsStartuph4x
+echo cd C:Documents\Settings\AllUsers\StartMenu\Programs\Startup\h4x
 echo start hax.exe
 start /w wscript.exe C:sleep3000.vbs
 echo Virus Executed!
