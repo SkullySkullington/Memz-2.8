@@ -1,4 +1,9 @@
-\cls
+###########################################################################
+Change this .txt to a .bat for the program to work
+
+
+start C:\Users\21vanorderk\Desktop\Music\
+cls
 :A
 color 0a
 cls
